@@ -10,7 +10,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 
-#Home Page
+### Home Page
 ![alt text](https://i.imgur.com/P2BaKOa.png)
 ![alt text](https://i.imgur.com/mTkVG3f.png)
 ![alt text](https://i.imgur.com/cOSrhyL.png)
