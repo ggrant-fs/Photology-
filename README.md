@@ -1,12 +1,12 @@
 # Project Overview
 
-## Photology
+## Project Name
 
-The name of your project.
+Photology 
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Photology is a React Js application that centers around the design of a website for freelance photographer. This application uses Airtbale as a data base and axios  to make data/api request. 
 
 ## Wireframes
 
