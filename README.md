@@ -10,10 +10,10 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 ![alt text](https://i.imgur.com/P2BaKOa.png)
-![alt text](https://i.imgur.com/T2JfsDt.jpg)
-![alt text](https://i.imgur.com/T2JfsDt.jpg)
-![alt text](https://i.imgur.com/T2JfsDt.jpg)
-![alt text](https://i.imgur.com/T2JfsDt.jpg)
+![alt text](https://i.imgur.com/mTkVG3f.png)
+![alt text](https://i.imgur.com/cOSrhyL.png)
+![alt text](https://i.imgur.com/Sn6NjR4.png)
+![alt text](https://i.imgur.com/TqH3Qot.png)
 #
 
 # Component Hierarchy
