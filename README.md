@@ -26,7 +26,7 @@ Use this section to describe your final project and perhaps any links to relevan
 ![alt text](https://i.imgur.com/TqH3Qot.png)
 
 # Component Hierarchy
-![alt text](https://i.imgur.com/T2JfsDt.jpg)
+![alt text](https://i.imgur.com/MlGHrhj.png)
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
