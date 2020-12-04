@@ -9,14 +9,15 @@ The name of your project.
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## Wireframes
-![alt text](https://i.imgur.com/CZwVxEC.png?1)
-![alt text](https://i.imgur.com/CZwVxEC.png?1)
-![alt text](https://i.imgur.com/CZwVxEC.png?1)
-![alt text](https://i.imgur.com/CZwVxEC.png?1)
+![alt text](https://i.imgur.com/P2BaKOa.png)
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
+#
 
-
-## Component Hierarchy
-
+# Component Hierarchy
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
