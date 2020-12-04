@@ -12,7 +12,11 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ### Home Page
 ![alt text](https://i.imgur.com/P2BaKOa.png)
+
+### About Me
 ![alt text](https://i.imgur.com/mTkVG3f.png)
+
+### Show Page
 ![alt text](https://i.imgur.com/cOSrhyL.png)
 ![alt text](https://i.imgur.com/Sn6NjR4.png)
 ![alt text](https://i.imgur.com/TqH3Qot.png)
