@@ -1,6 +1,6 @@
 # Project Overview
 
-## Project Name: Photology
+## Project: Photology
 
 ## Project Description
 
@@ -34,18 +34,44 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
+### Planning <!-- omit in toc -->
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Have a **thoroughly** developed `README.md` file. (Refer below to _"Step 5: Pitch Your Project Idea"_ for more.)
+
+### React <!-- omit in toc -->
+
+- Be a working, interactive React app, built using `create react app`.
+- Utilize React Router, installed via NPM. 
+- Have at least 6 separate, rendered components.
+- Implement an organized and understandable React file structure.
+- Utilize functional and class React components appropriately.
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
+- Use **only** React for DOM Manipulation.
+
+### Styling <!-- omit in toc -->
+
+- Be styled, use CSS, Styled Components, CSS-in-JS, or a component library to style your react project.
+- Use flexbox (`display: flex`) or CSS Grid (N/A if using a component library that handles this).
+- Implement responsive design on 2 screen sizes, using a media query (desktop and mobile and N/A if using a component library that handles this).
+  
+### Linting <!-- omit in toc -->
+
+- Indent properly.
+- Utilize high-quality, semantic variable names.
+- Follow `camelCase` and `kebab-case` conventions.
+- Remove unnecessary boilerplate React files and code.
+- Remove all `console.log()`s and commented out code (functional notes and comments are acceptable).
+
+### Deployment <!-- omit in toc -->
+
+- Deployed via Netlify.
+
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
-
+- Add Geolocation 
+- Page icons that connect to social media pages
+- video background
 ## Project Schedule
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
@@ -77,9 +103,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## SWOT Analysis
 
 ### Strengths:
-
+HTML,CSS, JavaScript
 ### Weaknesses:
-
+Rendering from API
 ### Opportunities:
-
+Full Grasp of React JS
 ### Threats:
+Time
