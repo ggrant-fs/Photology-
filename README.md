@@ -10,17 +10,20 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 
-### Home Page
+# Home Page
 ![alt text](https://i.imgur.com/P2BaKOa.png)
 
-### About Me
+# About Me
 ![alt text](https://i.imgur.com/mTkVG3f.png)
 
-### Show Page
+# Show Page
 ![alt text](https://i.imgur.com/cOSrhyL.png)
+
+# Reviews Page
 ![alt text](https://i.imgur.com/Sn6NjR4.png)
+
+# Contact Page
 ![alt text](https://i.imgur.com/TqH3Qot.png)
-#
 
 # Component Hierarchy
 ![alt text](https://i.imgur.com/T2JfsDt.jpg)
