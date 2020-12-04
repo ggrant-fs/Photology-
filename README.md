@@ -1,8 +1,6 @@
 # Project Overview
 
-## Project Name
-
-Photology 
+## Project Name: Photology
 
 ## Project Description
 
