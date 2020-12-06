@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ContactPage = () => {
+const ReviewHeader = () => {
     return (
         <div>
-          
+            
         </div>
     );
 };
 
-export default ContactPage;
+export default ReviewHeader;

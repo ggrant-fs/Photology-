@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ContactPage = () => {
+const ContactHeader = () => {
     return (
         <div>
-          
+            
         </div>
     );
 };
 
-export default ContactPage;
+export default ContactHeader;
