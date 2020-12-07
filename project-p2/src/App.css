@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
 #home {
   background-color: aqua;
   text-align: center;
@@ -68,7 +69,28 @@
   background-size: cover;
   /* background-position: center; */
 }
-.pic-test {
+.about-container {
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+}
+.content {
+  font-size: 30px;
+  height: 300px;
+  width: 100%;
+  color: white;
+}
+.break {
+  height: 350px;
+  width: 250px;
+  background-color: black;
+}
+
+#pic-div {
+  align-self: flex-end;
+}
+
+#pic-test {
   background-image: url("https://i.imgur.com/5i93lwO.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -76,8 +98,9 @@
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 1050px;
+
+  /* margin-top: 50px;
+  margin-left: 80%; */
 }
 
 /* .text {
