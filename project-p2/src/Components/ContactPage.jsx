@@ -5,6 +5,7 @@ const ContactPage = () => {
     return (
         <div>
           <ContactHeader/>
+         
         </div>
     );
 };

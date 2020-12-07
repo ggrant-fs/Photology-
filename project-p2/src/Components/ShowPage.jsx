@@ -1,9 +1,9 @@
 import React from 'react';
-
+import ShowHeader from './ShowHeader'
 const ShowPage = () => {
     return (
         <div>
-            show page
+          <ShowHeader/>
         </div>
     );
 };

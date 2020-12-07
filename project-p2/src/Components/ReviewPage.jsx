@@ -1,9 +1,11 @@
 import React from 'react';
+import ReviewHeader from './ReviewHeader'
+
 
 const ReviewPage = () => {
     return (
         <div>
-            review page
+            <ReviewHeader/>
         </div>
     );
 };

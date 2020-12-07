@@ -19,7 +19,9 @@
   margin: 0;
 }
 .homepage-h1 {
+  display: flex;
   color: white;
+  justify-content: center;
 }
 
 .intro-div {
@@ -34,11 +36,58 @@
   margin: 0;
   font-family: "Megrim", cursive;
   font-size: 100px;
+  /* text-align: center; */
 }
 
-.contact-header {
+.header-template {
   display: flex;
   height: 400px;
   flex-basis: 100%;
-  background-color: yellow;
 }
+/* .contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+} */
+
+#contact-header {
+  background-image: url("https://i.imgur.com/eVwQMWl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#show-header {
+  background-image: url("https://i.imgur.com/ONH1CIa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+#about-header {
+  background-image: url("https://i.imgur.com/VSBo8UF.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.pic-test {
+  background-image: url("https://i.imgur.com/5i93lwO.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 1050px;
+}
+
+/* .text {
+  width: 500px;
+
+  height: 300px;
+} */
+
+/* .break {
+  height: 350px;
+  width: 200px;
+  background-color: rosybrown;
+} */

@@ -12,23 +12,22 @@ function App() {
       <Route exact path="/">
         <HomePage />
       </Route>
-      ============================
+      {/* the route below is the contact ContactPage */}
       <Route path="/contact">
         <ContactPage />
       </Route>
-      =============================
+      {/* the route below is the about page  */}
       <Route path="/about">
         <AboutMe />
       </Route>
-      =============================
+      {/* the route below is the show ShowPage */}
       <Route path="/show">
         <ShowPage />
       </Route>
-      =============================
+      {/* the route below is the review ReviewPage */}
       <Route path="/review">
         <ReviewPage />
       </Route>
-      ==============================
     </div>
   );
 }

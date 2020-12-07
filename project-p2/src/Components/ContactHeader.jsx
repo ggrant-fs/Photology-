@@ -3,9 +3,7 @@ import React from 'react';
 const ContactHeader = () => {
     return (
         <div>
-            <header className="contact-header">
-            
-            </header>
+            <header id="contact-header" className="header-template"></header>
         </div>
     );
 };
