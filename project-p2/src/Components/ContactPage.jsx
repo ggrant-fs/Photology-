@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactHeader from './ContactHeader';
-// import Form from './Form';
+import Form from './Form';
 // import {useState} from 'react';
 
 const ContactPage = () => {
@@ -8,6 +8,7 @@ const ContactPage = () => {
     return (
         <div>
           <ContactHeader/>
+          <Form/>
           
         </div>
     );

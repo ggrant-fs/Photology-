@@ -8,6 +8,9 @@ const AboutMe = () => {
         <div >
             <AboutHeader/>
             <SecOneAboutMe/>
+            <div>
+                <img id="aboutMe-pic3" alt="" src=""/>
+            </div>
         </div>
     );
 };

@@ -87,6 +87,13 @@
   width: 250px;
   background-color: #07060b;
 }
+#aboutMe-pic3 {
+}
+#showPageBreak {
+  height: 400px;
+  width: 10px;
+  background-color: white;
+}
 
 #pic-div {
   align-self: flex-end;
@@ -106,10 +113,32 @@
   display: flex;
   height: 400px;
   width: 100%;
-  padding: 20px;
+  padding-top: 5px;
   justify-content: center;
   /* background-color: coral; */
 }
 .show-photos2 {
   display: flex;
+  justify-content: center;
+}
+#show-pic5 {
+  display: flex;
+  width: 600px;
+  height: 1000px;
+  /* padding-left: 20px; */
+  background-image: url("https://i.imgur.com/FRkU1GA.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5px;
+}
+#show-pic6 {
+  width: 830px;
+  height: 1000px;
+  margin-top: 5px;
+  background-image: url("https://i.imgur.com/HpwOgKF.jpg");
+}
+#mid-break {
+  width: 10px;
+  height: 1000px;
+  background-color: white;
 }

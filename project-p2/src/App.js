@@ -5,21 +5,26 @@ import ShowPage from "./Components/ShowPage";
 import AboutMe from "./Components/AboutMe";
 import axios from "axios";
 import { Route } from "react-router-dom";
-import { useEffect } from "react";
-// import { baseURL, config } from "./Services";
+import { useEffect, useState } from "react";
+
 import "./App.css";
 
 function App() {
-  useEffect(() => {
-    async function fetchData() {
-      const baseURL = `https://api.airtable.com/v0/appYFxGlqpW0UKaDL`;
+  const apiData = async () => {
+    try {
+      const baseURL = "https://api.airtable.com/v0/appYFxGlqpW0UKaDL/photology";
       const config = {
         header: "Authorization: Bearer keyByH3KyRC1apfnn",
       };
-      const response = await axios.get(baseURL, config);
-      console.log(response);
+      const apiRequest = await axios.get(baseURL, config);
+      console.log(apiRequest);
+    } catch (error) {
+      console.log(error);
     }
-    fetchData();
+  };
+
+  useEffect(() => {
+    apiData();
   }, []);
   return (
     <div className="App">
