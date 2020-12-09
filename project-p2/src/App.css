@@ -110,6 +110,6 @@
   justify-content: center;
   /* background-color: coral; */
 }
-#show-pic1 {
-  background-position: center;
+.show-photos2 {
+  display: flex;
 }

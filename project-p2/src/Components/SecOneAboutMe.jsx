@@ -13,7 +13,7 @@ const SecOneAboutMe = () => {
                 </div>
                 <div className="break"></div>
                 <div id="pic-div">
-                   <img id="pic-test" src="https://i.imgur.com/5i93lwO.jpg"/>
+                   <img alt="" id="pic-test" src="https://i.imgur.com/5i93lwO.jpg"/>
                 </div>
                 <div className="break"></div>
                 

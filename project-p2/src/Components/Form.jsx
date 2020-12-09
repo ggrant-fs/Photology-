@@ -1,24 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Form extends Component {
-    constructor(){
-        super();
-        this.state={};
-    }
-    render() {
-        return (
-          <form>
-              <label htmlfor=""></label>
-              <input type="text" name="" placeholder=""/>
-              <label htmlfor=""></label>
-              <input type="text" name="" placeholder=""/>
-              <label htmlfor=""></label>
-              <input type="text" name="" placeholder=""/>
-              <label htmlfor=""></label>
-              <input type="text" name="" placeholder=""/>
-          </form>
-        );
-    }
-}
+const Form = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
 
 export default Form;
