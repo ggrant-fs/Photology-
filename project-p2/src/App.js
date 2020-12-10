@@ -6,7 +6,7 @@ import AboutMe from "./Components/AboutMe";
 // import { baseURL, config } from "./Services/index";
 // import axios from "axios";
 import { Route } from "react-router-dom";
-// import { useEffect, useState } from "react";
+// import { useEffect } from "react";
 
 import "./App.css";
 
