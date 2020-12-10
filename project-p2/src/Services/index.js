@@ -5,3 +5,5 @@ export const config = {
     Authorization: "Bearer keyByH3KyRC1apfnn",
   },
 };
+export const secondaryURL =
+  "https://api.airtable.com/v0/appYFxGlqpW0UKaDL/reviews";
