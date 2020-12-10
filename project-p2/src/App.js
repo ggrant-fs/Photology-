@@ -3,29 +3,27 @@ import ContactPage from "./Components/ContactPage";
 import ReviewPage from "./Components/ReviewPage";
 import ShowPage from "./Components/ShowPage";
 import AboutMe from "./Components/AboutMe";
-import axios from "axios";
+// import { baseURL, config } from "./Services/index";
+// import axios from "axios";
 import { Route } from "react-router-dom";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 import "./App.css";
 
 function App() {
-  const apiData = async () => {
-    try {
-      const baseURL = "https://api.airtable.com/v0/appYFxGlqpW0UKaDL/photology";
-      const config = {
-        header: "Authorization: Bearer keyByH3KyRC1apfnn",
-      };
-      const apiRequest = await axios.get(baseURL, config);
-      console.log(apiRequest);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  //get request
+  // const apiData = async () => {
+  //   const apiRequest = await axios.get(baseURL, config);
+  //   console.log(apiRequest.data.records);
+  // };
 
-  useEffect(() => {
-    apiData();
-  }, []);
+  // //post request
+  // const formPostRequest = async (fields) => {
+  //   await axios.post(baseURL, { fields: fields }, config);
+  // };
+  // useEffect(() => {
+  //   apiData();
+  // }, []);
   return (
     <div className="App">
       <Route exact path="/">
