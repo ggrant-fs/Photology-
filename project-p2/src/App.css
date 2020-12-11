@@ -87,8 +87,8 @@
   width: 250px;
   background-color: #07060b;
 }
-#aboutMe-pic3 {
-}
+/* #aboutMe-pic3 {
+} */
 #showPageBreak {
   height: 400px;
   width: 10px;
@@ -108,7 +108,19 @@
   width: 350px;
   border-radius: 50%;
 }
-/* ==================================== */
+/* ============SHOW PAGE================ */
+#show-page-title {
+  font-size: 50px;
+}
+#show-page-title:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+#title-featured {
+  color: #07060b;
+  text-align: center;
+  text-decoration: underline;
+}
 .show-photos {
   display: flex;
   height: 400px;
@@ -142,6 +154,34 @@
   height: 1000px;
   background-color: white;
 }
-#testH1 {
+
+.show-photos3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#show-pic7 {
+  background-image: url("https://i.imgur.com/Oj5Tlv7.jpg");
+  /* height: 400px; */
+  width: 1080px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5px;
+}
+#bottomBreak {
+  height: 410px;
+  width: 10px;
+  background-color: white;
+}
+#show-pic8 {
+  background-image: url("https://i.imgur.com/tEETLFC.jpg");
+  /* height: 400px; */
+  width: 350px;
+  margin-top: 5px;
+}
+
+/* ===============REVIEW PAGE================= */
+#review-title {
   color: red;
 }

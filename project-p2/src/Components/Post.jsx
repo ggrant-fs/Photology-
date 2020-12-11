@@ -5,8 +5,8 @@ const Post = (props) => {
   const reviews =  props.reviewInfo.map((item)=>{
         console.log(item)
         return(
-            <div>
-              <h2 id="testH1">{item.fields.reviewer}</h2>  
+            <div key={item.id}>
+              <h2 id="review-title">{item.fields.reviewer}</h2>  
               <p>{item.fields.reviews}</p>
             </div>
         )
