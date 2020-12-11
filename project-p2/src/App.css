@@ -301,3 +301,14 @@ form {
   margin-top: 100px;
   margin-left: 250px;
 } */
+/* ==================NAVIGATION=========== */
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+}
+#about-nav {
+  margin-top: 0;
+  margin-left: 800px;
+}
