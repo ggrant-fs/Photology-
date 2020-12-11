@@ -255,3 +255,16 @@ form {
 #email {
   margin-right: 350px;
 }
+
+/* =========REVIEW PAGE=============== */
+#review-page-title {
+  font-size: 50px;
+}
+#review-page-title:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+#review-header-title {
+  margin-top: 100px;
+  margin-left: 250px;
+}
