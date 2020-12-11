@@ -315,3 +315,20 @@ nav li {
   margin-top: 0;
   margin-left: 800px;
 }
+
+/* ============MEDIA QUERIES===================== */
+@media only screen and (max-width: 700px) {
+  .homepage-h1 {
+    font-size: 60px;
+    color: blue;
+  }
+  #about-content {
+    font-size: 20px;
+  }
+}
+
+@media only screen and(min-width:980px) {
+  /* #about-content {
+    font-size: 200px;
+  } */
+}
