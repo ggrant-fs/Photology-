@@ -308,7 +308,10 @@ nav ul {
 nav li {
   display: inline;
 }
-#about-nav {
+#about-nav,
+#show-nav,
+#review-nav,
+#contact-nav {
   margin-top: 0;
   margin-left: 800px;
 }

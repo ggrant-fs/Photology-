@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav'
 
 const ContactHeader = () => {
     return (
@@ -7,7 +8,8 @@ const ContactHeader = () => {
             <h1 id="contact-page-title" className="homepage-h1">Photology</h1>
               <div id="contact-us">
             <h1 className="homepage-h1">Contact us</h1>
-             </div>           
+             </div>   
+             <Nav/>        
             </header>
         </div>
     );
