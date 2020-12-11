@@ -24,37 +24,61 @@ const Form = (props) => {
       props.formPostRequest(formData)
     }
     return (
-        <div>
+        <div id="form-page">
             <form onSubmit={handleSubmit }>
-                 <label htmlFor="firstName">First Name</label>
+                <label id="first-name" htmlFor="firstName">First Name</label>
+                <label id="last-name" htmlFor="LastName">Last Name</label>
+                <div id="sec1">
                  <input 
+                 className="input"
+                 id="input1"
                  type="text" 
                  name="firstName" 
+                 placeholder="First Name"
                  value={formData.firstName} 
                  onChange={(e)=>handleChange(e)}/>
 
-                 <label htmlFor="LastName">Last Name</label>
                  <input 
+                className="input"
+                id="input2"
                  type="text" 
                  name="lastName" 
+                 placeholder="Last Name"
                  value={formData.lastName} 
                  onChange={(e)=>handleChange(e)}/><br/>
-
-                 <label htmlFor="email">Email</label>
+                </div>
+                 <div>
+                 <label id="email" htmlFor="email">Email </label>
+                 <label htmlFor="phoneNumber"> Phone</label>
+                 </div>
+                 <div id="sec2">
                  <input 
+                 className="input"
+                 id="input3"
                  type="text" 
                  name="email"
+                 placeholder="Email"
                  value={formData.email}
                  onChange={(e)=>handleChange(e)} />
 
-                 <label htmlFor="phoneNumber">Phone Number</label>
                  <input 
+                 className="input"
+                 id="input4" 
                  type="text" 
                  name="phoneNumber"  
                  value={formData.phoneNumber}
                  onChange={(e)=>handleChange(e)}
-                 placeholder="555-555-5555"/>
-                 <textarea type="text" name="message" value={formData.message} onChange={(e)=>handleChange(e)}></textarea>
+                 placeholder="Phone number"/>
+                 </div>
+
+                 <div id="sec3">
+                 <textarea type="text" 
+                 id="text-area"
+                 name="message" 
+                 placeholder="Send us a message"
+                 value={formData.message} 
+                 onChange={(e)=>handleChange(e)}></textarea>
+                 </div>
                
                  <input type="submit" value="submit"/>
             </form>
