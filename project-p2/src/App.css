@@ -202,8 +202,38 @@
 }
 
 /* ===============REVIEW PAGE================= */
-#review-title {
-  color: red;
+#reviewer-title {
+  text-decoration: underline;
+}
+
+#review-div {
+  background-color: white;
+  border-radius: 10px;
+  width: 800px;
+  font-size: 18px;
+  margin-left: 300px;
+}
+#review-page-title {
+  font-size: 50px;
+}
+#reivew-title2 {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  font-size: 100px;
+  color: white;
+  margin-top: 0;
+  text-decoration: underline;
+}
+#review-page-title:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+#review-header-title {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+#review-background {
+  background-color: #010006;
 }
 /* ===============CONTACT PAGE================= */
 #contact-us {
@@ -257,8 +287,11 @@ form {
 }
 
 /* =========REVIEW PAGE=============== */
-#review-page-title {
+/* #review-page-title {
   font-size: 50px;
+}
+#reivew-title2 {
+  text-align: center;
 }
 #review-page-title:hover {
   color: goldenrod;
@@ -267,4 +300,4 @@ form {
 #review-header-title {
   margin-top: 100px;
   margin-left: 250px;
-}
+} */
